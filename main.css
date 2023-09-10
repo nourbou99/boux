@@ -8,28 +8,27 @@
 body{
     display: grid;
     height: 100vh;
-    overflow:hidden;
     background-color: #0b0b0b;
     color: aliceblue;
-
     place-content: center;
 }
 .phone{
-    width: 310px;
+    width: 370px;
     text-align: center;
-    height: 500px;
+    height: 600px;
     padding: 10px;
     z-index: 2;
     display: flex;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-image: url("https://www.reactiongifs.us/wp-content/uploads/2018/01/ezgif-1-2334c9065d.gif");
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     position: relative;
+ 
     box-shadow:  0 0 4px rgba(255, 255, 255, 0.184);
 }
 .phone::before{
@@ -37,14 +36,19 @@ body{
     inset: 0;
     width: 100%;
     content: '';
-    opacity: 0.7;
+    opacity: 0.5;
+
     background-color: #0b0b0b;
     z-index: -1;
 }
 .phone h1{
-    font-size: 45px;
+    font-size: 50px;
     z-index: 2;
+    background-color: #0b0b0b57;
+    width: 100%;
     opacity: 0.;
+    border-radius: 20px;
+    margin: 30px 0;
 
 }
 .start{
@@ -81,8 +85,11 @@ transition: .5s;
 .dsc{
     position: absolute;top: 30px;
     padding: 20px;
+    border-radius: 20px;
     z-index: 2;
-    opacity: 0.5;
+    width: 95%;
+    background-color: #0b0b0b;
+    opacity: 0.7;
 }
 input{
     border: none;
@@ -102,10 +109,16 @@ input:focus{
     transition: .3s;
 }
 .phone.bg2{
-    background-image: url("https://i.pinimg.com/236x/e7/1d/4c/e71d4c9e8908000362f64d055d2db064.jpg");
+    background-image: url("https://gifdb.com/images/high/scary-and-creepy-kid-87e2wf55eryqa0wh.gif");
+}
+.die{
+    background-image: url("https://24.media.tumblr.com/tumblr_m9sj83vWNQ1rfsuiio1_500.gif");
 }
 .phone.bg3{
-    background-image: url("https://i.pinimg.com/736x/b0/1b/bc/b01bbc4c2729ee4eaf03e0416d336b74.jpg");
+    background-image: url("https://thoughtcatalog.com/wp-content/uploads/2016/08/giphy2.gif?w=360");
+}
+.phone.bg4{
+    background-image: url("https://i.gifer.com/embedded/download/Non6.gif");
 }
 .fb{
     display: flex;
@@ -145,4 +158,20 @@ scale: 1.6;
 .ca{
     color: red;
     font-size: 60px;
+}
+.not{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('https://gifdb.com/images/high/scary-mumbling-ghost-c42ncebjyhpszw5t.webp');
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.176);
+    background-size: cover;
+    background-position: center;
+}
+.phone-bg{
+    background-image: url('https://i.pinimg.com/originals/70/17/ad/7017addefe0e5fe7052922551689d493.gif');
+
 }
