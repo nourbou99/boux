@@ -8,6 +8,7 @@
 body{
     display: grid;
     height: 100vh;
+    overflow:hidden;
     background-color: #0b0b0b;
     color: aliceblue;
 
@@ -16,7 +17,7 @@ body{
 .phone{
     width: 310px;
     text-align: center;
-    height: 400px;
+    height: 500px;
     padding: 10px;
     z-index: 2;
     display: flex;
