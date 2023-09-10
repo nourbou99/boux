@@ -16,7 +16,7 @@ body{
 .phone{
     width: 310px;
     text-align: center;
-    height: 500px;
+    height: 400px;
     padding: 10px;
     z-index: 2;
     display: flex;
