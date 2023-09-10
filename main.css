@@ -14,9 +14,9 @@ body{
     place-content: center;
 }
 .phone{
-    width: 350px;
+    width: 310px;
     text-align: center;
-    height: 600px;
+    height: 500px;
     padding: 10px;
     z-index: 2;
     display: flex;
@@ -41,7 +41,7 @@ body{
     z-index: -1;
 }
 .phone h1{
-    font-size: 50px;
+    font-size: 45px;
     z-index: 2;
     opacity: 0.;
 
