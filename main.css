@@ -186,6 +186,6 @@ scale: 1.6;
     .phone{
         width: 100%;
         border-radius: 0;
-        height: 100%;
+        height: 85vh;
     }
 }
