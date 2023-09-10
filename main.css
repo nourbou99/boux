@@ -120,6 +120,23 @@ input:focus{
 .phone.bg4{
     background-image: url("https://i.gifer.com/embedded/download/Non6.gif");
 }
+.phone.kok{
+    background-image: url('https://i.gifer.com/embedded/download/UFTV.gif');
+
+}
+.phone.crep{
+    background-image: url('https://i.gifer.com/Ch6l.gif');
+
+}
+.phone.koc{
+    background-image: url(' https://i.pinimg.com/originals/2c/1e/84/2c1e840ddd1563ea6788abc5668a1f87.gif');
+}
+.phone.q{
+    background-image: url(' https://media.tenor.com/WvzaAf8jksYAAAAM/i-see-you-eyes.gif');
+}
+
+
+
 .fb{
     display: flex;
     justify-content: center;
@@ -163,7 +180,7 @@ scale: 1.6;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-image: url('https://gifdb.com/images/high/scary-mumbling-ghost-c42ncebjyhpszw5t.webp');
+    background-image: url('https://cdn-blog.adafruit.com/uploads/2016/12/Bill-Domonkos-1.gif');
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -176,7 +193,6 @@ scale: 1.6;
 
 }
 
-
 @media screen and (max-width: 568px){
     body{
         width: 100%;
@@ -186,6 +202,6 @@ scale: 1.6;
     .phone{
         width: 100%;
         border-radius: 0;
-        height: 85vh;
+        height: 100%;
     }
 }
