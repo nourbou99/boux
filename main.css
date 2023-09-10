@@ -175,3 +175,17 @@ scale: 1.6;
     background-image: url('https://i.pinimg.com/originals/70/17/ad/7017addefe0e5fe7052922551689d493.gif');
 
 }
+
+
+@media screen and (max-width: 568px){
+    body{
+        width: 100%;
+     
+     display: block;   padding: 0;
+    }
+    .phone{
+        width: 100%;
+        border-radius: 0;
+        height: 100vh;
+    }
+}
